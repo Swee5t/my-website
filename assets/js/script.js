@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             // Hide the popup by setting its display property to 'none'
             document.querySelector('.popup').style.display = 'none';
+            document.querySelector('body').style.overflow = 'visible';
         });
     });
 });

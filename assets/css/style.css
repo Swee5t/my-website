@@ -7,6 +7,8 @@ body {
     min-height: 100vh;
     padding: 0;
     color: white;
+    overflow: hidden;
+    overflow-y: scroll;
     background: linear-gradient(180deg, rgb(25, 25, 25), rgb(15, 15, 15));
     background-size: cover;
     font-family: "ProximaSoft", sans-serif;
@@ -22,7 +24,7 @@ body {
 
 .end-footer {
     font-size: 12px;
-    opacity: .5;
+    color: rgba(255, 255, 255, .6);
 }
 
 .flex-centered {
@@ -190,7 +192,7 @@ h4 {
 .card .card-content .card-subtitle {
     padding-right: 10px;
     font-size: 14px;
-    opacity: .5;
+    color: rgba(255, 255, 255, .6);
 }
 
 .split {
@@ -226,8 +228,8 @@ h4 {
     box-sizing: border-box;
     overflow: hidden;
     background-color: rgba(255, 255, 255, .1);
-    -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(30px) brightness(.4);
+    -webkit-backdrop-filter: blur(30px) brightness(0.4)
     box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
 }
 
@@ -239,7 +241,7 @@ h4 {
     justify-content: center;
 }
 
-.popup .contents .title {
+.popup .contents .text {
     display: flex;
     max-width: 300px;
     margin: 0;
@@ -250,12 +252,13 @@ h4 {
     justify-content: center;
 }
 
-.popup .contents .subtitle {
+.popup .contents .description {
     display: flex;
     max-width: 300px;
     margin: 0;
     padding: 10px 0px 15px 0px;
     font-size: 16px;
+    color: rgba(255, 255, 255, .8);
     text-align: center;
     align-items: center;
     justify-content: center;
