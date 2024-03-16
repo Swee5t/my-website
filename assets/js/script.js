@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.popup-container').style.display = 'flex';
         document.querySelector('.popup .logo').style.display = 'flex';
         document.querySelector('.popup .text').textContent = 'Certified Developer Badge';
-        document.querySelector('.popup .description').textContent = "Awarded to individuals with profound expertise and significant experience, this symbol signifies community respect and recognition for their contributions and achievements.";
+        document.querySelector('.popup .description').textContent = "This account has been certified since February 17, 2024.";
         const buttons = document.querySelectorAll('.close-button');
         buttons.forEach((element) => {
             buttons[0].textContent = 'Okey';
