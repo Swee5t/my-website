@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.popup-container').style.display = 'flex';
         document.querySelector('.popup .logo').style.display = 'flex';
         document.querySelector('.popup .text').textContent = 'Certified Developer Badge';
-        document.querySelector('.popup .description').textContent = "Given to individuals possessing profound expertise and considerable experience, this emblem signifies the community's respect and acknowledgment of their contributions and accomplishments.";
+        document.querySelector('.popup .description').textContent = "Awarded to individuals with profound expertise and significant experience, this symbol signifies community respect and recognition for their contributions and achievements.";
         const buttons = document.querySelectorAll('.close-button');
         buttons.forEach((element) => {
             buttons[0].textContent = 'Okey';
