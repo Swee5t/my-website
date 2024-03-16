@@ -229,7 +229,7 @@ h4 {
     overflow: hidden;
     background-color: rgba(255, 255, 255, .1);
     backdrop-filter: blur(30px) brightness(.4);
-    -webkit-backdrop-filter: blur(30px) brightness(0.4)
+    -webkit-backdrop-filter: blur(30px) brightness(0.4);
     box-shadow: 0px 10px 50px rgba(0, 0, 0, .6);
 }
 
