@@ -16,5 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('.close-button').forEach(element => {
             element.style.display = 'flex';
         });
+        document.querySelectorAll('.popup .contents .split').forEach(element => {
+            element.style.display = 'flex';
+        });
     });
 });
