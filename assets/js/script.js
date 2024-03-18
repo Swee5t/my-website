@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     buttons.forEach((element) => {
-        buttons[0].textContent = 'Okey';
+        buttons[0].textContent = 'Okey!';
         buttons[0].onclick = () => {
             popup.style.display = 'none';
             body.style.overflow = 'auto';
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         popupDescription.textContent = 'This account has been certified since February 17, 2024.';
         body.style.overflow = 'hidden';
         buttons.forEach((element) => {
-            buttons[0].textContent = 'OK';
+            buttons[0].textContent = 'Close';
             buttons[0].onclick = () => {
                 popup.style.display = 'none';
                 body.style.overflow = 'auto';
